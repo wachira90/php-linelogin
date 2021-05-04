@@ -15,8 +15,8 @@ error_reporting(E_ALL);
 // define('LINE_LOGIN_CHANNEL_SECRET','กรอก Channel secret ของเรา');
 // define('LINE_LOGIN_CALLBACK_URL','กรอก Callback URL ของเรา เช่น https://www.example.com/login_uselib_callback.php');
  
-define('LINE_LOGIN_CHANNEL_ID','1655324064');
-define('LINE_LOGIN_CHANNEL_SECRET','a8f95a3774412c5fff29aaf26acc8774');
+define('LINE_LOGIN_CHANNEL_ID','165532xxxx');
+define('LINE_LOGIN_CHANNEL_SECRET','a8f95a3774412c5fff29aaf26accxxxx');
 define('LINE_LOGIN_CALLBACK_URL','http://localhost/line/login_uselib_callback.php');
 
 $LineLogin = new LineLoginLib(
